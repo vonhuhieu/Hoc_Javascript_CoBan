@@ -1,2 +1,3 @@
 let result = "A" && "B" && "C";
-console.log(result);
+let resultBackUp = "A" || "B" || "C" || "D";
+console.log(resultBackUp);
