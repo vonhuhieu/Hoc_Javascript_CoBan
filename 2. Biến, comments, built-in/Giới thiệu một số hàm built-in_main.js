@@ -10,3 +10,7 @@ console.error(fullName);
 confirm("Xác nhận bạn đủ tuổi");
 
 prompt("Xác nhận bạn đủ tuổi");
+
+setTimeout(function() {
+    alert("Tôi là Hiếu");
+}, 1000);
