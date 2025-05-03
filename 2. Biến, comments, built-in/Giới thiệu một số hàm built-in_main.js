@@ -14,3 +14,7 @@ prompt("Xác nhận bạn đủ tuổi");
 setTimeout(function() {
     alert("Tôi là Hiếu");
 }, 1000);
+
+setInterval(function() {
+    console.log("Đây là log" + " " + Math.random());
+}, 3000);
