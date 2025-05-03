@@ -6,3 +6,5 @@ let fullName = "Vo Nhu Hieu";
 console.log(fullName);
 console.warn(fullName);
 console.error(fullName);
+
+confirm("Xác nhận bạn đủ tuổi");
