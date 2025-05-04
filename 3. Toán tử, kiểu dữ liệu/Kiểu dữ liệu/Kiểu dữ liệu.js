@@ -30,3 +30,8 @@ let age;
 
 // Null
 let isNull = null; // nothing
+
+// Symbol
+let id = Symbol("id"); // unique
+let id2 = Symbol("id"); // unique
+console.log(id === id2);
