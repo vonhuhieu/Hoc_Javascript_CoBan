@@ -15,7 +15,7 @@ Kiểu dữ liệu trong JS
 */
 
 // Number type
-let a  = 1, b = 2, c = 1.5;
+let a = 1, b = 2, c = 1.5;
 
 // String type
 let fullName = "My name is \"Vonhuhieu\"";
@@ -35,3 +35,10 @@ let isNull = null; // nothing
 let id = Symbol("id"); // unique
 let id2 = Symbol("id"); // unique
 console.log(id === id2);
+
+// Function
+let myFunction = function () {
+    alert("Hi. Xin chào các bạn");
+}
+
+myFunction();
