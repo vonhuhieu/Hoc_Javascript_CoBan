@@ -20,3 +20,7 @@ let a  = 1, b = 2, c = 1.5;
 // String type
 let fullName = "My name is \"Vonhuhieu\"";
 console.log(fullName);
+
+// Boolean
+let isSuccess = true; // viết đúng
+let isSuccessFalse = "true"; // viết sai vì đây là String type
