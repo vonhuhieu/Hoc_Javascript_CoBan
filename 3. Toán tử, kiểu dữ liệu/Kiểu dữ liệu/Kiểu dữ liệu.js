@@ -16,3 +16,7 @@ Kiểu dữ liệu trong JS
 
 // Number type
 let a  = 1, b = 2, c = 1.5;
+
+// String type
+let fullName = "My name is \"Vonhuhieu\"";
+console.log(fullName);
