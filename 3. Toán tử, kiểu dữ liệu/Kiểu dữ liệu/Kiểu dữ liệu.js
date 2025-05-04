@@ -24,3 +24,6 @@ console.log(fullName);
 // Boolean
 let isSuccess = true; // viết đúng
 let isSuccessFalse = "true"; // viết sai vì đây là String type
+
+// Undefined type
+let age;
