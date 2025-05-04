@@ -12,4 +12,7 @@ Kiểu dữ liệu trong JS
 2. Dữ liệu phức tạp - Complex Data
     - Function
     - Object
- */
+*/
+
+// Number type
+let a  = 1, b = 2, c = 1.5;
