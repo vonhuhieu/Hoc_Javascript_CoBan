@@ -27,3 +27,6 @@ let isSuccessFalse = "true"; // viết sai vì đây là String type
 
 // Undefined type
 let age;
+
+// Null
+let isNull = null; // nothing
