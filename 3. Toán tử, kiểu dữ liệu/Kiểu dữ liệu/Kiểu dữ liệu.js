@@ -17,24 +17,31 @@ Kiểu dữ liệu trong JS
 // Number type
 let a = 1, b = 2, c = 1.5;
 
+console.log(typeof a);
+
 // String type
 let fullName = "My name is \"Vonhuhieu\"";
 console.log(fullName);
+console.log(typeof fullName);
 
 // Boolean
 let isSuccess = true; // viết đúng
 let isSuccessFalse = "true"; // viết sai vì đây là String type
+console.log(typeof isSuccess);
 
 // Undefined type
 let age;
+console.log(typeof age);
 
 // Null
 let isNull = null; // nothing
+console.log(typeof isNull);
 
 // Symbol
 let id = Symbol("id"); // unique
 let id2 = Symbol("id"); // unique
 console.log(id === id2);
+console.log(typeof id);
 
 // Function
 let myFunction = function () {
@@ -42,6 +49,8 @@ let myFunction = function () {
 }
 
 myFunction();
+
+console.log(typeof myFunction);
 
 // Object types
 let myObject = {
@@ -54,6 +63,7 @@ let myObject = {
 };
 
 console.log("myObject", myObject);
+console.log(typeof myObject);
 
 // Array types
 let myArray = [
@@ -63,3 +73,4 @@ let myArray = [
 ];
 
 console.log(myArray);
+console.log(typeof myArray)
