@@ -54,3 +54,12 @@ let myObject = {
 };
 
 console.log("myObject", myObject);
+
+// Array types
+let myArray = [
+    "JS",
+    "PHP",
+    "Ruby"
+];
+
+console.log(myArray);
