@@ -42,3 +42,15 @@ let myFunction = function () {
 }
 
 myFunction();
+
+// Object types
+let myObject = {
+    name: "Hieu Vo",
+    age: 22,
+    address: "Danang",
+    myFunction: function() {
+
+    }
+};
+
+console.log("myObject", myObject);
